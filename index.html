@@ -149,10 +149,10 @@
         }
         
         function openTellerConnect() {
-            if (APPLICATION_ID === 'app_pk0nak1217e7lbmkas000') {
-                showStatus('⚠️ Please replace app_pk0nak1217e7lbmkas000 with your actual Application ID first!', 'error');
-                return;
-            }
+            if (APPLICATION_ID === 'YOUR_APPLICATION_ID_HERE') {
+    showStatus('⚠️ Please replace YOUR_APPLICATION_ID_HERE with your actual Application ID first!', 'error');
+    return;
+}
             
             const tellerConnect = TellerConnect.setup({
                 applicationId: APPLICATION_ID,
